@@ -1,0 +1,23 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:2[m[K:
+[01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse FlightActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const uav_control_interfaces::action::Flight_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:25:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct uav_control_interfaces::action::Flight_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct uav_control_interfaces::action::Flight_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktarget_altitude[m[K’; did you mean ‘[01m[Kset__altitude[m[K’?
+   25 | (this->get_logger(), "Received goal to fly to altitude: %.2f", goal->[01;31m[Ktarget_altitude[m[K);
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In lambda function:
+[01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:43:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+   43 |             result->[01;31m[Ksuccess[m[K = true;
+      |                     [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/flight_action_server.dir/build.make:63: CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flight_action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

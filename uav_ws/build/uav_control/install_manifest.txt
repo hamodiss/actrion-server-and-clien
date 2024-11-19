@@ -1,0 +1,16 @@
+/home/momo/uav_ws/install/uav_control/lib/uav_control/flight_action_server
+/home/momo/uav_ws/install/uav_control/share/ament_index/resource_index/package_run_dependencies/uav_control
+/home/momo/uav_ws/install/uav_control/share/ament_index/resource_index/parent_prefix_path/uav_control
+/home/momo/uav_ws/install/uav_control/share/uav_control/environment/ament_prefix_path.sh
+/home/momo/uav_ws/install/uav_control/share/uav_control/environment/ament_prefix_path.dsv
+/home/momo/uav_ws/install/uav_control/share/uav_control/environment/path.sh
+/home/momo/uav_ws/install/uav_control/share/uav_control/environment/path.dsv
+/home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.bash
+/home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.sh
+/home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.zsh
+/home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.dsv
+/home/momo/uav_ws/install/uav_control/share/uav_control/package.dsv
+/home/momo/uav_ws/install/uav_control/share/ament_index/resource_index/packages/uav_control
+/home/momo/uav_ws/install/uav_control/share/uav_control/cmake/uav_controlConfig.cmake
+/home/momo/uav_ws/install/uav_control/share/uav_control/cmake/uav_controlConfig-version.cmake
+/home/momo/uav_ws/install/uav_control/share/uav_control/package.xml

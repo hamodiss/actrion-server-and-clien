@@ -1,0 +1,26 @@
+[0.028s] Invoking command in '/home/momo/uav_ws/build/uav_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --build /home/momo/uav_ws/build/uav_control -- -j8 -l8
+[0.173s] [35m[1mScanning dependencies of target flight_action_server[0m
+[0.234s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o[0m
+[7.644s] [100%] [32m[1mLinking CXX executable flight_action_server[0m
+[8.061s] [100%] Built target flight_action_server
+[8.097s] Invoked command in '/home/momo/uav_ws/build/uav_control' returned '0': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --build /home/momo/uav_ws/build/uav_control -- -j8 -l8
+[8.217s] Invoking command in '/home/momo/uav_ws/build/uav_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --install /home/momo/uav_ws/build/uav_control
+[8.242s] -- Install configuration: ""
+[8.243s] -- Installing: /home/momo/uav_ws/install/uav_control/lib/uav_control/flight_action_server
+[8.247s] -- Set runtime path of "/home/momo/uav_ws/install/uav_control/lib/uav_control/flight_action_server" to ""
+[8.248s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/ament_index/resource_index/package_run_dependencies/uav_control
+[8.248s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/ament_index/resource_index/parent_prefix_path/uav_control
+[8.249s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/environment/ament_prefix_path.sh
+[8.249s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/environment/ament_prefix_path.dsv
+[8.250s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/environment/path.sh
+[8.250s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/environment/path.dsv
+[8.250s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.bash
+[8.251s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.sh
+[8.251s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.zsh
+[8.252s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/local_setup.dsv
+[8.253s] -- Installing: /home/momo/uav_ws/install/uav_control/share/uav_control/package.dsv
+[8.253s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/ament_index/resource_index/packages/uav_control
+[8.253s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/cmake/uav_controlConfig.cmake
+[8.254s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/cmake/uav_controlConfig-version.cmake
+[8.254s] -- Up-to-date: /home/momo/uav_ws/install/uav_control/share/uav_control/package.xml
+[8.258s] Invoked command in '/home/momo/uav_ws/build/uav_control' returned '0': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --install /home/momo/uav_ws/build/uav_control

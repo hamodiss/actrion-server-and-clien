@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/momo/ugv_ws/build/ugv_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake --build /home/momo/ugv_ws/build/ugv_control -- -j8 -l8
+[0.159s] [35m[1mScanning dependencies of target flight_action_client[0m
+[0.233s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_action_client.dir/src/flight_action_client.cpp.o[0m
+[4.616s] [100%] [32m[1mLinking CXX executable flight_action_client[0m
+[4.901s] [100%] Built target flight_action_client
+[4.943s] Invoked command in '/home/momo/ugv_ws/build/ugv_control' returned '0': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake --build /home/momo/ugv_ws/build/ugv_control -- -j8 -l8
+[5.064s] Invoking command in '/home/momo/ugv_ws/build/ugv_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake --install /home/momo/ugv_ws/build/ugv_control
+[5.088s] -- Install configuration: ""
+[5.089s] -- Installing: /home/momo/ugv_ws/install/ugv_control/lib/ugv_control/flight_action_client
+[5.092s] -- Set runtime path of "/home/momo/ugv_ws/install/ugv_control/lib/ugv_control/flight_action_client" to ""
+[5.092s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ament_index/resource_index/package_run_dependencies/ugv_control
+[5.093s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ament_index/resource_index/parent_prefix_path/ugv_control
+[5.093s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/environment/ament_prefix_path.sh
+[5.094s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/environment/ament_prefix_path.dsv
+[5.094s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/environment/path.sh
+[5.094s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/environment/path.dsv
+[5.094s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/local_setup.bash
+[5.095s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/local_setup.sh
+[5.095s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/local_setup.zsh
+[5.096s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/local_setup.dsv
+[5.096s] -- Installing: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/package.dsv
+[5.096s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ament_index/resource_index/packages/ugv_control
+[5.097s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/cmake/ugv_controlConfig.cmake
+[5.097s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/cmake/ugv_controlConfig-version.cmake
+[5.098s] -- Up-to-date: /home/momo/ugv_ws/install/ugv_control/share/ugv_control/package.xml
+[5.103s] Invoked command in '/home/momo/ugv_ws/build/ugv_control' returned '0': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake --install /home/momo/ugv_ws/build/ugv_control

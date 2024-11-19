@@ -1,0 +1,69 @@
+[0.028s] Invoking command in '/home/momo/ugv_ws/build/ugv_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake /home/momo/ugv_ws/src/ugv_control -DCMAKE_INSTALL_PREFIX=/home/momo/ugv_ws/install/ugv_control
+[0.205s] -- The C compiler identification is GNU 9.4.0
+[0.342s] -- The CXX compiler identification is GNU 9.4.0
+[0.360s] -- Check for working C compiler: /usr/bin/cc
+[0.578s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.579s] -- Detecting C compiler ABI info
+[0.791s] -- Detecting C compiler ABI info - done
+[0.812s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.816s] -- Check for working CXX compiler: /usr/bin/c++
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.056s] -- Detecting CXX compiler ABI info
+[1.308s] -- Detecting CXX compiler ABI info - done
+[1.350s] -- Detecting CXX compile features
+[1.351s] -- Detecting CXX compile features - done
+[1.354s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.410s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.410s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.720s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.792s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.029s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.080s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.299s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.301s] -- Looking for pthread.h
+[2.521s] -- Looking for pthread.h - found
+[2.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.718s] -- Looking for pthread_create in pthreads
+[2.875s] -- Looking for pthread_create in pthreads - not found
+[2.875s] -- Looking for pthread_create in pthread
+[3.080s] -- Looking for pthread_create in pthread - found
+[3.084s] -- Found Threads: TRUE  
+[3.403s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[3.531s] -- Found uav_control_interfaces: 0.1.0 (/home/momo/uav_interface_ws/install/uav_control_interfaces/share/uav_control_interfaces/cmake)
+[3.749s] -- Configuring done
+[3.778s] -- Generating done
+[3.781s] -- Build files have been written to: /home/momo/ugv_ws/build/ugv_control
+[3.794s] Invoked command in '/home/momo/ugv_ws/build/ugv_control' returned '0': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake /home/momo/ugv_ws/src/ugv_control -DCMAKE_INSTALL_PREFIX=/home/momo/ugv_ws/install/ugv_control
+[3.806s] Invoking command in '/home/momo/ugv_ws/build/ugv_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake --build /home/momo/ugv_ws/build/ugv_control -- -j8 -l8
+[3.914s] [35m[1mScanning dependencies of target flight_action_client[0m
+[3.988s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_action_client.dir/src/flight_action_client.cpp.o[0m
+[5.710s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.711s]                  from [01m[K/home/momo/ugv_ws/src/ugv_control/src/flight_action_client.cpp:1[m[K:
+[5.711s] [01m[K/home/momo/ugv_ws/src/ugv_control/src/flight_action_client.cpp:[m[K In member function ‘[01m[Kvoid FlightActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<uav_control_interfaces::action::Flight>::SharedPtr, std::shared_ptr<const uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> > >)[m[K’:
+[5.711s] [01m[K/home/momo/ugv_ws/src/ugv_control/src/flight_action_client.cpp:85:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcurrent_altitude[m[K’
+[5.711s]    85 | LCPP_INFO(this->get_logger(), "Feedback: Altitude: %.2f", feedback->[01;31m[Kcurrent_altitude[m[K);
+[5.711s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.711s] 
+[5.721s] [01m[K/home/momo/ugv_ws/src/ugv_control/src/flight_action_client.cpp:[m[K In member function ‘[01m[Kvoid FlightActionClient::result_callback(const WrappedResult&)[m[K’:
+[5.721s] [01m[K/home/momo/ugv_ws/src/ugv_control/src/flight_action_client.cpp:92:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+[5.721s]    92 |  RCLCPP_INFO(this->get_logger(), "Goal succeeded: %s", result.result->[01;31m[Kstatus[m[K.c_str());
+[5.721s]       |                                                                       [01;31m[K^~~~~~[m[K
+[5.721s] 
+[7.221s] make[2]: *** [CMakeFiles/flight_action_client.dir/build.make:63: CMakeFiles/flight_action_client.dir/src/flight_action_client.cpp.o] Error 1
+[7.221s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flight_action_client.dir/all] Error 2
+[7.223s] make: *** [Makefile:141: all] Error 2
+[7.226s] Invoked command in '/home/momo/ugv_ws/build/ugv_control' returned '2': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install /usr/bin/cmake --build /home/momo/ugv_ws/build/ugv_control -- -j8 -l8
