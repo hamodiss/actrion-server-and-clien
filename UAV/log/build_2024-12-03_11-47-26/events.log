@@ -1,0 +1,543 @@
+[0.000000] (-) TimerEvent: {}
+[0.000775] (uav_control_interfaces) JobQueued: {'identifier': 'uav_control_interfaces', 'dependencies': OrderedDict()}
+[0.000985] (uav_control) JobQueued: {'identifier': 'uav_control', 'dependencies': OrderedDict([('uav_control_interfaces', '/home/momo/action_ws/UAV/install/uav_control_interfaces')])}
+[0.001393] (uav_control_interfaces) JobStarted: {'identifier': 'uav_control_interfaces'}
+[0.022179] (uav_control_interfaces) JobProgress: {'identifier': 'uav_control_interfaces', 'progress': 'cmake'}
+[0.023117] (uav_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/momo/action_ws/UAV/uav_interface_ws/src/uav_control_interfaces', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/momo/action_ws/UAV/install/uav_control_interfaces'], 'cwd': '/home/momo/action_ws/UAV/build/uav_control_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/action_ws/install/uav_control_interfaces/share:/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/action_ws/install/uav_control_interfaces/lib:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/action_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/action_ws/install:/home/momo/flight/install:/home/momo/ugv_ws/install:/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/action_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/action_ws/UAV/build/uav_control_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/action_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/action_ws/install/uav_control_interfaces:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install')]), 'shell': False}
+[0.099058] (-) TimerEvent: {}
+[0.188118] (uav_control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199446] (-) TimerEvent: {}
+[0.300330] (-) TimerEvent: {}
+[0.342458] (uav_control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.361859] (uav_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.401666] (-) TimerEvent: {}
+[0.502226] (-) TimerEvent: {}
+[0.581359] (uav_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.586182] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602802] (-) TimerEvent: {}
+[0.712860] (-) TimerEvent: {}
+[0.814663] (-) TimerEvent: {}
+[0.815330] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.857955] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.858609] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.862062] (uav_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.915482] (-) TimerEvent: {}
+[1.016904] (-) TimerEvent: {}
+[1.078909] (uav_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.080252] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.117341] (-) TimerEvent: {}
+[1.218102] (-) TimerEvent: {}
+[1.300768] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.318830] (-) TimerEvent: {}
+[1.321873] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.322456] (uav_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.325163] (uav_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.381750] (uav_control_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.382228] (uav_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.419955] (-) TimerEvent: {}
+[1.521966] (-) TimerEvent: {}
+[1.623921] (-) TimerEvent: {}
+[1.677782] (uav_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.683055] (uav_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.692133] (uav_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.724968] (-) TimerEvent: {}
+[1.827013] (-) TimerEvent: {}
+[1.928242] (-) TimerEvent: {}
+[1.953504] (uav_control_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.003402] (uav_control_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.030245] (-) TimerEvent: {}
+[2.122605] (uav_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.131151] (-) TimerEvent: {}
+[2.216756] (uav_control_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.231671] (-) TimerEvent: {}
+[2.333252] (-) TimerEvent: {}
+[2.434742] (-) TimerEvent: {}
+[2.535360] (-) TimerEvent: {}
+[2.617639] (uav_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.635720] (-) TimerEvent: {}
+[2.737300] (-) TimerEvent: {}
+[2.815539] (uav_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.837809] (-) TimerEvent: {}
+[2.854817] (uav_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.915114] (uav_control_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.918116] (uav_control_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.939317] (-) TimerEvent: {}
+[2.968039] (uav_control_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.968842] (uav_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.969186] (uav_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.969617] (uav_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.995859] (uav_control_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.040773] (-) TimerEvent: {}
+[3.132435] (uav_control_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.143444] (-) TimerEvent: {}
+[3.210581] (uav_control_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.214688] (uav_control_interfaces) StderrLine: {'line': b'CMake Warning:\n'}
+[3.215145] (uav_control_interfaces) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[3.215575] (uav_control_interfaces) StderrLine: {'line': b'\n'}
+[3.215904] (uav_control_interfaces) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[3.216477] (uav_control_interfaces) StderrLine: {'line': b'\n'}
+[3.216798] (uav_control_interfaces) StderrLine: {'line': b'\n'}
+[3.217108] (uav_control_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/momo/action_ws/UAV/build/uav_control_interfaces\n'}
+[3.226404] (uav_control_interfaces) CommandEnded: {'returncode': 0}
+[3.228781] (uav_control_interfaces) JobProgress: {'identifier': 'uav_control_interfaces', 'progress': 'build'}
+[3.238555] (uav_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/momo/action_ws/UAV/build/uav_control_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/momo/action_ws/UAV/build/uav_control_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/action_ws/install/uav_control_interfaces/share:/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/action_ws/install/uav_control_interfaces/lib:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/action_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/action_ws/install:/home/momo/flight/install:/home/momo/ugv_ws/install:/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/action_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/action_ws/UAV/build/uav_control_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/action_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/action_ws/install/uav_control_interfaces:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install')]), 'shell': False}
+[3.244269] (-) TimerEvent: {}
+[3.345099] (-) TimerEvent: {}
+[3.370890] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__cpp\x1b[0m\n'}
+[3.372417] (uav_control_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.410643] (uav_control_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.445182] (-) TimerEvent: {}
+[3.545907] (-) TimerEvent: {}
+[3.646944] (-) TimerEvent: {}
+[3.747476] (-) TimerEvent: {}
+[3.848002] (-) TimerEvent: {}
+[3.948540] (-) TimerEvent: {}
+[4.049093] (-) TimerEvent: {}
+[4.149637] (-) TimerEvent: {}
+[4.220279] (uav_control_interfaces) StdoutLine: {'line': b'[  6%] Built target uav_control_interfaces__cpp\n'}
+[4.233770] (uav_control_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.240275] (uav_control_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.242458] (uav_control_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.249902] (-) TimerEvent: {}
+[4.275458] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.294867] (uav_control_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/uav_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/uav_control_interfaces/action/detail/flight__functions.c.o\x1b[0m\n'}
+[4.351359] (-) TimerEvent: {}
+[4.451794] (-) TimerEvent: {}
+[4.481246] (uav_control_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libuav_control_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.552435] (-) TimerEvent: {}
+[4.567933] (uav_control_interfaces) StdoutLine: {'line': b'[ 22%] Built target uav_control_interfaces__rosidl_generator_c\n'}
+[4.587184] (uav_control_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.602604] (uav_control_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.652936] (-) TimerEvent: {}
+[4.753626] (-) TimerEvent: {}
+[4.782068] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.813847] (uav_control_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uav_control_interfaces/action/flight__type_support.cpp.o\x1b[0m\n'}
+[4.854267] (-) TimerEvent: {}
+[4.908810] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.948240] (uav_control_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uav_control_interfaces/action/detail/flight__type_support.cpp.o\x1b[0m\n'}
+[4.954443] (-) TimerEvent: {}
+[5.031478] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.054612] (-) TimerEvent: {}
+[5.061692] (uav_control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uav_control_interfaces/action/detail/dds_fastrtps/flight__type_support.cpp.o\x1b[0m\n'}
+[5.155633] (-) TimerEvent: {}
+[5.156080] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.175719] (uav_control_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/uav_control_interfaces/action/flight__type_support.cpp.o\x1b[0m\n'}
+[5.244233] (uav_control_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libuav_control_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.246222] (uav_control_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libuav_control_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.255727] (-) TimerEvent: {}
+[5.281640] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.300676] (uav_control_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/uav_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uav_control_interfaces/action/detail/flight__type_support.c.o\x1b[0m\n'}
+[5.302556] (uav_control_interfaces) StdoutLine: {'line': b'[ 51%] Built target uav_control_interfaces__rosidl_typesupport_cpp\n'}
+[5.304418] (uav_control_interfaces) StdoutLine: {'line': b'[ 51%] Built target uav_control_interfaces__rosidl_typesupport_c\n'}
+[5.356779] (-) TimerEvent: {}
+[5.408411] (uav_control_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libuav_control_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.438658] (uav_control_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libuav_control_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.456945] (-) TimerEvent: {}
+[5.488610] (uav_control_interfaces) StdoutLine: {'line': b'[ 58%] Built target uav_control_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.557895] (-) TimerEvent: {}
+[5.591442] (uav_control_interfaces) StdoutLine: {'line': b'[ 58%] Built target uav_control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.658066] (-) TimerEvent: {}
+[5.695516] (uav_control_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libuav_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.760089] (-) TimerEvent: {}
+[5.861541] (-) TimerEvent: {}
+[5.879523] (uav_control_interfaces) StdoutLine: {'line': b'[ 61%] Built target uav_control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.901718] (uav_control_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.961858] (-) TimerEvent: {}
+[6.063365] (-) TimerEvent: {}
+[6.164191] (-) TimerEvent: {}
+[6.264786] (-) TimerEvent: {}
+[6.365367] (-) TimerEvent: {}
+[6.465845] (-) TimerEvent: {}
+[6.566898] (-) TimerEvent: {}
+[6.667793] (-) TimerEvent: {}
+[6.699579] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.734160] (uav_control_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/uav_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uav_control_interfaces/action/detail/flight__type_support_c.cpp.o\x1b[0m\n'}
+[6.767984] (-) TimerEvent: {}
+[6.868910] (-) TimerEvent: {}
+[6.969746] (-) TimerEvent: {}
+[7.070607] (-) TimerEvent: {}
+[7.171173] (-) TimerEvent: {}
+[7.271941] (-) TimerEvent: {}
+[7.308980] (uav_control_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libuav_control_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.372206] (-) TimerEvent: {}
+[7.472644] (-) TimerEvent: {}
+[7.506155] (uav_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target uav_control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.525659] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces\x1b[0m\n'}
+[7.539361] (uav_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target uav_control_interfaces\n'}
+[7.572844] (-) TimerEvent: {}
+[7.588537] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__py\x1b[0m\n'}
+[7.607232] (uav_control_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.673059] (-) TimerEvent: {}
+[7.773490] (-) TimerEvent: {}
+[7.873886] (-) TimerEvent: {}
+[7.974379] (-) TimerEvent: {}
+[8.074754] (-) TimerEvent: {}
+[8.175109] (-) TimerEvent: {}
+[8.276003] (-) TimerEvent: {}
+[8.376544] (-) TimerEvent: {}
+[8.477073] (-) TimerEvent: {}
+[8.577334] (-) TimerEvent: {}
+[8.677648] (-) TimerEvent: {}
+[8.778691] (-) TimerEvent: {}
+[8.879234] (-) TimerEvent: {}
+[8.979589] (-) TimerEvent: {}
+[9.080327] (-) TimerEvent: {}
+[9.180719] (-) TimerEvent: {}
+[9.223667] (uav_control_interfaces) StdoutLine: {'line': b'[ 74%] Built target uav_control_interfaces__py\n'}
+[9.240320] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__python\x1b[0m\n'}
+[9.280924] (-) TimerEvent: {}
+[9.290279] (uav_control_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/uav_control_interfaces__python.dir/rosidl_generator_py/uav_control_interfaces/action/_flight_s.c.o\x1b[0m\n'}
+[9.381331] (-) TimerEvent: {}
+[9.482586] (-) TimerEvent: {}
+[9.485508] (uav_control_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/uav_control_interfaces/libuav_control_interfaces__python.so\x1b[0m\n'}
+[9.582854] (-) TimerEvent: {}
+[9.604728] (uav_control_interfaces) StdoutLine: {'line': b'[ 80%] Built target uav_control_interfaces__python\n'}
+[9.628681] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.634293] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.637056] (uav_control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_control_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.665334] (uav_control_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/uav_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uav_control_interfaces/_uav_control_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.666142] (uav_control_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/uav_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uav_control_interfaces/_uav_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.683136] (-) TimerEvent: {}
+[9.685608] (uav_control_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/uav_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uav_control_interfaces/_uav_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.784146] (-) TimerEvent: {}
+[9.829776] (uav_control_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.843645] (uav_control_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.844398] (uav_control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.884338] (-) TimerEvent: {}
+[9.934752] (uav_control_interfaces) StdoutLine: {'line': b'[100%] Built target uav_control_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.941008] (uav_control_interfaces) StdoutLine: {'line': b'[100%] Built target uav_control_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.967259] (uav_control_interfaces) StdoutLine: {'line': b'[100%] Built target uav_control_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.982561] (uav_control_interfaces) CommandEnded: {'returncode': 0}
+[9.986096] (-) TimerEvent: {}
+[10.086856] (-) TimerEvent: {}
+[10.187415] (-) TimerEvent: {}
+[10.217110] (uav_control_interfaces) JobProgress: {'identifier': 'uav_control_interfaces', 'progress': 'install'}
+[10.233180] (uav_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/momo/action_ws/UAV/build/uav_control_interfaces'], 'cwd': '/home/momo/action_ws/UAV/build/uav_control_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/action_ws/install/uav_control_interfaces/share:/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/action_ws/install/uav_control_interfaces/lib:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/action_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/action_ws/install:/home/momo/flight/install:/home/momo/ugv_ws/install:/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/action_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/action_ws/UAV/build/uav_control_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/action_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/action_ws/install/uav_control_interfaces:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install')]), 'shell': False}
+[10.246312] (uav_control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.246888] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/uav_control_interfaces\n'}
+[10.247250] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces\n'}
+[10.247358] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action\n'}
+[10.247444] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/flight.h\n'}
+[10.247560] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail\n'}
+[10.247925] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__functions.h\n'}
+[10.248110] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__functions.c\n'}
+[10.248199] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__type_support.h\n'}
+[10.248282] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__struct.h\n'}
+[10.248458] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg\n'}
+[10.248566] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.248692] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/library_path.sh\n'}
+[10.248782] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/library_path.dsv\n'}
+[10.248865] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_generator_c.so\n'}
+[10.249241] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.249764] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces\n'}
+[10.249935] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action\n'}
+[10.250034] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail\n'}
+[10.250129] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__rosidl_typesupport_fastrtps_c.h\n'}
+[10.250260] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg\n'}
+[10.250350] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.250428] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.250668] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.251090] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces\n'}
+[10.251163] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action\n'}
+[10.251212] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail\n'}
+[10.251260] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/dds_fastrtps\n'}
+[10.251589] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.251677] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg\n'}
+[10.251724] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.252045] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.253080] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.253244] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces\n'}
+[10.253452] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action\n'}
+[10.253596] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail\n'}
+[10.253643] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__type_support.c\n'}
+[10.253832] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__rosidl_typesupport_introspection_c.h\n'}
+[10.254308] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg\n'}
+[10.254419] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.254790] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.255731] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.256031] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_c.so\n'}
+[10.256963] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.257428] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces\n'}
+[10.257504] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action\n'}
+[10.257548] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/flight.hpp\n'}
+[10.257786] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail\n'}
+[10.257846] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__struct.hpp\n'}
+[10.258022] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__builder.hpp\n'}
+[10.258339] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__traits.hpp\n'}
+[10.258524] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__type_support.hpp\n'}
+[10.258773] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg\n'}
+[10.258875] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.259415] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces\n'}
+[10.259538] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action\n'}
+[10.259747] (uav_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail\n'}
+[10.259841] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.259919] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/include/uav_control_interfaces/action/detail/flight__type_support.cpp\n'}
+[10.260219] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.261006] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.261265] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.261973] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.262252] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/pythonpath.sh\n'}
+[10.262437] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/pythonpath.dsv\n'}
+[10.262753] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/__init__.py\n'}
+[10.287713] (-) TimerEvent: {}
+[10.328936] (uav_control_interfaces) StdoutLine: {'line': b"Compiling '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/__init__.py'...\n"}
+[10.335150] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/action\n'}
+[10.335900] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/action/_flight.py\n'}
+[10.336381] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/action/__init__.py\n'}
+[10.336696] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/action/_flight_s.c\n'}
+[10.337264] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.339438] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.340347] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.342686] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.343461] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.345829] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages/uav_control_interfaces/uav_control_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.346371] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__python.so\n'}
+[10.347813] (uav_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/libuav_control_interfaces__python.so" to ""\n'}
+[10.348215] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/action/Flight.idl\n'}
+[10.348745] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/action/Flight.action\n'}
+[10.349612] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_control_interfaces\n'}
+[10.350267] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_control_interfaces\n'}
+[10.350683] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/ament_prefix_path.sh\n'}
+[10.351114] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.351555] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/path.sh\n'}
+[10.351932] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/environment/path.dsv\n'}
+[10.352485] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/local_setup.bash\n'}
+[10.352860] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/local_setup.sh\n'}
+[10.353419] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/local_setup.zsh\n'}
+[10.354178] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/local_setup.dsv\n'}
+[10.354505] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/package.dsv\n'}
+[10.355021] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/ament_index/resource_index/packages/uav_control_interfaces\n'}
+[10.355414] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.355812] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.356460] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.357010] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.357704] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.358317] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.358858] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.359331] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.359836] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.360439] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.360793] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.361248] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.361929] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.362319] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.362625] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.363187] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.363477] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.363908] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.364194] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfacesConfig.cmake\n'}
+[10.364470] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake/uav_control_interfacesConfig-version.cmake\n'}
+[10.364882] (uav_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/package.xml\n'}
+[10.368380] (uav_control_interfaces) CommandEnded: {'returncode': 0}
+[10.388227] (-) TimerEvent: {}
+[10.489103] (-) TimerEvent: {}
+[10.592044] (-) TimerEvent: {}
+[10.611409] (uav_control_interfaces) JobEnded: {'identifier': 'uav_control_interfaces', 'rc': 0}
+[10.613389] (uav_control) JobStarted: {'identifier': 'uav_control'}
+[10.638151] (uav_control) JobProgress: {'identifier': 'uav_control', 'progress': 'cmake'}
+[10.639091] (uav_control) Command: {'cmd': ['/usr/bin/cmake', '/home/momo/action_ws/UAV/uav_ws/src/uav_control', '-DCMAKE_INSTALL_PREFIX=/home/momo/action_ws/UAV/install/uav_control'], 'cwd': '/home/momo/action_ws/UAV/build/uav_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/share:/home/momo/action_ws/install/uav_control_interfaces/share:/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:/home/momo/action_ws/install/uav_control_interfaces/lib:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/action_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/action_ws/install:/home/momo/flight/install:/home/momo/ugv_ws/install:/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/action_ws/UAV/build/uav_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/action_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/action_ws/install/uav_control_interfaces:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install')]), 'shell': False}
+[10.692219] (-) TimerEvent: {}
+[10.792825] (-) TimerEvent: {}
+[10.798720] (uav_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[10.894444] (-) TimerEvent: {}
+[10.955764] (uav_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[10.972193] (uav_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[10.994822] (-) TimerEvent: {}
+[11.095329] (-) TimerEvent: {}
+[11.152991] (uav_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[11.158082] (uav_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.198130] (-) TimerEvent: {}
+[11.298797] (-) TimerEvent: {}
+[11.335485] (uav_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.361684] (uav_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.362499] (uav_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.365900] (uav_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[11.399385] (-) TimerEvent: {}
+[11.499837] (-) TimerEvent: {}
+[11.562162] (uav_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[11.566995] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.600563] (-) TimerEvent: {}
+[11.701245] (-) TimerEvent: {}
+[11.761756] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.783775] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.786457] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.795353] (uav_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[11.801792] (-) TimerEvent: {}
+[11.853569] (uav_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[11.854084] (uav_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.902145] (-) TimerEvent: {}
+[12.002725] (-) TimerEvent: {}
+[12.104191] (-) TimerEvent: {}
+[12.152288] (uav_control) StdoutLine: {'line': b'-- Found uav_control_interfaces: 0.1.0 (/home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake)\n'}
+[12.204023] (uav_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.204555] (-) TimerEvent: {}
+[12.212775] (uav_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[12.305605] (-) TimerEvent: {}
+[12.406586] (-) TimerEvent: {}
+[12.428736] (uav_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[12.476201] (uav_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[12.507220] (-) TimerEvent: {}
+[12.608569] (-) TimerEvent: {}
+[12.651641] (uav_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.709525] (-) TimerEvent: {}
+[12.810735] (-) TimerEvent: {}
+[12.875471] (uav_control) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[12.912269] (-) TimerEvent: {}
+[12.942419] (uav_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[12.944552] (uav_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.945580] (uav_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.012877] (-) TimerEvent: {}
+[13.113566] (-) TimerEvent: {}
+[13.161700] (uav_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.162761] (uav_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.214944] (-) TimerEvent: {}
+[13.315538] (-) TimerEvent: {}
+[13.361493] (uav_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[13.362544] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[13.416061] (-) TimerEvent: {}
+[13.516729] (-) TimerEvent: {}
+[13.536111] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[13.536723] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[13.617412] (-) TimerEvent: {}
+[13.718826] (-) TimerEvent: {}
+[13.770803] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[13.772296] (uav_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.819846] (-) TimerEvent: {}
+[13.921921] (-) TimerEvent: {}
+[14.023047] (-) TimerEvent: {}
+[14.052604] (uav_control) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[14.106816] (uav_control) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[14.123924] (-) TimerEvent: {}
+[14.224138] (uav_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[14.224679] (-) TimerEvent: {}
+[14.326185] (-) TimerEvent: {}
+[14.358115] (uav_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.359254] (uav_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.359640] (uav_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.359930] (uav_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.360550] (uav_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.361321] (uav_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.364075] (uav_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.364396] (uav_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.364675] (uav_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.365008] (uav_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.368415] (uav_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.381318] (uav_control) StdoutLine: {'line': b'-- Generating done\n'}
+[14.383840] (uav_control) StdoutLine: {'line': b'-- Build files have been written to: /home/momo/action_ws/UAV/build/uav_control\n'}
+[14.397248] (uav_control) CommandEnded: {'returncode': 0}
+[14.399840] (uav_control) JobProgress: {'identifier': 'uav_control', 'progress': 'build'}
+[14.406703] (uav_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/momo/action_ws/UAV/build/uav_control', '--', '-j8', '-l8'], 'cwd': '/home/momo/action_ws/UAV/build/uav_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/share:/home/momo/action_ws/install/uav_control_interfaces/share:/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:/home/momo/action_ws/install/uav_control_interfaces/lib:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/action_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/action_ws/install:/home/momo/flight/install:/home/momo/ugv_ws/install:/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/action_ws/UAV/build/uav_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/action_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/action_ws/install/uav_control_interfaces:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install')]), 'shell': False}
+[14.427400] (-) TimerEvent: {}
+[14.527759] (-) TimerEvent: {}
+[14.537332] (uav_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flight_action_server\x1b[0m\n'}
+[14.628560] (-) TimerEvent: {}
+[14.668429] (uav_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o\x1b[0m\n'}
+[14.729953] (-) TimerEvent: {}
+[14.830533] (-) TimerEvent: {}
+[14.931006] (-) TimerEvent: {}
+[15.031527] (-) TimerEvent: {}
+[15.132035] (-) TimerEvent: {}
+[15.232614] (-) TimerEvent: {}
+[15.333614] (-) TimerEvent: {}
+[15.434560] (-) TimerEvent: {}
+[15.535636] (-) TimerEvent: {}
+[15.636675] (-) TimerEvent: {}
+[15.737420] (-) TimerEvent: {}
+[15.838752] (-) TimerEvent: {}
+[15.939750] (-) TimerEvent: {}
+[16.040804] (-) TimerEvent: {}
+[16.141104] (-) TimerEvent: {}
+[16.241487] (-) TimerEvent: {}
+[16.341835] (-) TimerEvent: {}
+[16.442224] (-) TimerEvent: {}
+[16.542570] (-) TimerEvent: {}
+[16.642983] (-) TimerEvent: {}
+[16.743542] (-) TimerEvent: {}
+[16.843931] (-) TimerEvent: {}
+[16.944296] (-) TimerEvent: {}
+[17.044677] (-) TimerEvent: {}
+[17.145678] (-) TimerEvent: {}
+[17.246056] (-) TimerEvent: {}
+[17.346754] (-) TimerEvent: {}
+[17.447291] (-) TimerEvent: {}
+[17.547604] (-) TimerEvent: {}
+[17.648026] (-) TimerEvent: {}
+[17.748851] (-) TimerEvent: {}
+[17.849289] (-) TimerEvent: {}
+[17.949897] (-) TimerEvent: {}
+[18.050436] (-) TimerEvent: {}
+[18.150933] (-) TimerEvent: {}
+[18.251585] (-) TimerEvent: {}
+[18.352106] (-) TimerEvent: {}
+[18.452521] (-) TimerEvent: {}
+[18.553065] (-) TimerEvent: {}
+[18.653572] (-) TimerEvent: {}
+[18.754109] (-) TimerEvent: {}
+[18.854447] (-) TimerEvent: {}
+[18.955373] (-) TimerEvent: {}
+[19.056518] (-) TimerEvent: {}
+[19.157259] (-) TimerEvent: {}
+[19.257872] (-) TimerEvent: {}
+[19.358715] (-) TimerEvent: {}
+[19.460263] (-) TimerEvent: {}
+[19.560835] (-) TimerEvent: {}
+[19.665133] (-) TimerEvent: {}
+[19.765803] (-) TimerEvent: {}
+[19.866579] (-) TimerEvent: {}
+[19.968303] (-) TimerEvent: {}
+[20.070329] (-) TimerEvent: {}
+[20.171351] (-) TimerEvent: {}
+[20.272371] (-) TimerEvent: {}
+[20.373598] (-) TimerEvent: {}
+[20.475247] (-) TimerEvent: {}
+[20.575845] (-) TimerEvent: {}
+[20.676401] (-) TimerEvent: {}
+[20.778897] (-) TimerEvent: {}
+[20.880358] (-) TimerEvent: {}
+[20.980978] (-) TimerEvent: {}
+[21.082302] (-) TimerEvent: {}
+[21.182921] (-) TimerEvent: {}
+[21.283943] (-) TimerEvent: {}
+[21.384789] (-) TimerEvent: {}
+[21.487023] (-) TimerEvent: {}
+[21.587727] (-) TimerEvent: {}
+[21.689087] (-) TimerEvent: {}
+[21.792474] (-) TimerEvent: {}
+[21.894069] (-) TimerEvent: {}
+[21.996436] (-) TimerEvent: {}
+[22.097882] (-) TimerEvent: {}
+[22.199462] (-) TimerEvent: {}
+[22.301007] (-) TimerEvent: {}
+[22.407444] (-) TimerEvent: {}
+[22.430559] (uav_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable flight_action_server\x1b[0m\n'}
+[22.507739] (-) TimerEvent: {}
+[22.608420] (-) TimerEvent: {}
+[22.708985] (-) TimerEvent: {}
+[22.809461] (-) TimerEvent: {}
+[22.850889] (uav_control) StdoutLine: {'line': b'[100%] Built target flight_action_server\n'}
+[22.871620] (uav_control) CommandEnded: {'returncode': 0}
+[22.906167] (uav_control) JobProgress: {'identifier': 'uav_control', 'progress': 'install'}
+[22.910389] (uav_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/momo/action_ws/UAV/build/uav_control'], 'cwd': '/home/momo/action_ws/UAV/build/uav_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/share:/home/momo/action_ws/install/uav_control_interfaces/share:/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:/home/momo/action_ws/install/uav_control_interfaces/lib:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/action_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/action_ws/install:/home/momo/flight/install:/home/momo/ugv_ws/install:/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/action_ws/UAV/build/uav_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/action_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:/home/momo/action_ws/install/ugv_control:/home/momo/action_ws/install/uav_control:/home/momo/action_ws/install/uav_control_interfaces:/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/home/momo/uav_interface_ws/install/uav_control_interfaces:/home/momo/uav_interface_ws/install:/home/momo/uav_interface_ws/install')]), 'shell': False}
+[22.912859] (-) TimerEvent: {}
+[22.921039] (uav_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.921636] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/lib/uav_control/flight_action_server\n'}
+[22.925918] (uav_control) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control/lib/uav_control/flight_action_server" to ""\n'}
+[22.926735] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/ament_index/resource_index/package_run_dependencies/uav_control\n'}
+[22.927470] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/ament_index/resource_index/parent_prefix_path/uav_control\n'}
+[22.928116] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/ament_prefix_path.sh\n'}
+[22.928454] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/ament_prefix_path.dsv\n'}
+[22.928855] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/path.sh\n'}
+[22.929618] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/path.dsv\n'}
+[22.929979] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.bash\n'}
+[22.930525] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.sh\n'}
+[22.931287] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.zsh\n'}
+[22.931515] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.dsv\n'}
+[22.931788] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/package.dsv\n'}
+[22.932104] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/ament_index/resource_index/packages/uav_control\n'}
+[22.932370] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/cmake/uav_controlConfig.cmake\n'}
+[22.932630] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/cmake/uav_controlConfig-version.cmake\n'}
+[22.932890] (uav_control) StdoutLine: {'line': b'-- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/package.xml\n'}
+[22.935847] (uav_control) CommandEnded: {'returncode': 0}
+[23.013609] (-) TimerEvent: {}
+[23.043287] (uav_control) JobEnded: {'identifier': 'uav_control', 'rc': 0}
+[23.045771] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/install/local.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/install.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/list_install_components.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/rebuild_cache.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/edit_cache.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/test.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/install/strip.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/flight_action_client.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/ugv_control_uninstall.dir
+/home/momo/action_ws/UGV/build/ugv_control/CMakeFiles/uninstall.dir

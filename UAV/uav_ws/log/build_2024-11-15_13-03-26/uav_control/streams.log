@@ -1,0 +1,92 @@
+[0.029s] Invoking command in '/home/momo/uav_ws/build/uav_control': CMAKE_PREFIX_PATH=/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --build /home/momo/uav_ws/build/uav_control -- -j8 -l8
+[0.104s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.156s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.444s] -- Found uav_control_interfaces: 0.1.0 (/home/momo/uav_interface_ws/install/uav_control_interfaces/share/uav_control_interfaces/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.484s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.964s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.284s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.334s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.433s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.566s] -- Configured cppcheck include dirs: 
+[1.566s] -- Configured cppcheck exclude dirs and/or files: 
+[1.567s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.567s] -- Configured cpplint exclude dirs and/or files: 
+[1.568s] -- Added test 'lint_cmake' to check CMake code style
+[1.569s] -- Added test 'uncrustify' to check C / C++ code style
+[1.570s] -- Configured uncrustify additional arguments: 
+[1.570s] -- Added test 'xmllint' to check XML markup files
+[1.574s] -- Configuring done
+[1.587s] -- Generating done
+[1.590s] -- Build files have been written to: /home/momo/uav_ws/build/uav_control
+[1.650s] [35m[1mScanning dependencies of target flight_action_server[0m
+[1.723s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o[0m
+[3.299s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:37:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.299s]    37 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::Bool>::SharedPtr control_subscription_;
+[3.299s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.300s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.300s]    37 |     rclcpp::Subscription<std_msgs::msg::Bool[01;31m[K>[m[K::SharedPtr control_subscription_;
+[3.300s]       |                                             [01;31m[K^[m[K
+[3.301s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.301s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:37:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.301s]    37 |     rclcpp::Subscription<std_msgs::msg::Bool>::[01;31m[KSharedPtr[m[K control_subscription_;
+[3.302s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[3.302s]       |                                                         [32m[K;[m[K
+[3.303s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:37:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[3.303s]    37 |     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr [01;31m[Kcontrol_subscription_[m[K;
+[3.303s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.304s]       |                                                          [32m[Krcl_subscription_t[m[K
+[3.342s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In constructor ‘[01m[KFlightActionServer::FlightActionServer()[m[K’:
+[3.343s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[3.343s]    21 |         [01;31m[Kcontrol_subscription_[m[K = this->create_subscription<std_msgs::msg::Bool>(
+[3.343s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.344s]       |         [32m[Krcl_subscription_t[m[K
+[3.344s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:21:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.345s]    21 |         control_subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::Bool>(
+[3.345s]       |                                                           [01;31m[K^~~~~~~~[m[K
+[3.345s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:21:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.346s]    21 |         control_subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::Bool>[m[K(
+[3.346s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.347s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:23:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[3.347s]    23 |             [this](const [01;31m[Kstd_msgs[m[K::msg::Bool::SharedPtr msg) {
+[3.348s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.348s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In lambda function:
+[3.348s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:32:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[3.349s]    32 |             })[01;31m[K;[m[K
+[3.349s]       |               [01;31m[K^[m[K
+[3.349s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In constructor ‘[01m[KFlightActionServer::FlightActionServer()[m[K’:
+[3.350s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:32:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[3.350s]    32 |             })[01;31m[K;[m[K
+[3.350s]       |               [01;31m[K^[m[K
+[3.351s]       |               [32m[K)[m[K
+[3.351s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:21:79:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.351s]    21 |         control_subscription_ = this->create_subscription<std_msgs::msg::Bool>[01;36m[K([m[K
+[3.352s]       |                                                                               [01;36m[K^[m[K
+[3.352s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse FlightActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const uav_control_interfaces::action::Flight_Goal_<std::allocator<void> > >)[m[K’:
+[3.352s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:41:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.352s]    41 |     rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const Flight::Goal> goal)
+[3.353s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.353s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse FlightActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<uav_control_interfaces::action::Flight> >)[m[K’:
+[3.353s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:47:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.354s]    47 | clcpp_action::CancelResponse handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleFlight> goal_handle[m[K)
+[3.354s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.354s] 
+[3.358s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In member function ‘[01m[Kvoid FlightActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<uav_control_interfaces::action::Flight> >)[m[K’:
+[3.359s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:76:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcurrent_altitude[m[K’
+[3.359s]    76 |             feedback->[01;31m[Kcurrent_altitude[m[K = current_altitude;
+[3.359s]       |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.360s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:86:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+[3.360s]    86 |             result->[01;31m[Kstatus[m[K = "Landed";
+[3.360s]       |                     [01;31m[K^~~~~~[m[K
+[3.361s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:101:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+[3.361s]   101 |         result->[01;31m[Kstatus[m[K = "Landed";
+[3.361s]       |                 [01;31m[K^~~~~~[m[K
+[4.461s] make[2]: *** [CMakeFiles/flight_action_server.dir/build.make:63: CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o] Error 1
+[4.462s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flight_action_server.dir/all] Error 2
+[4.463s] make: *** [Makefile:141: all] Error 2
+[4.467s] Invoked command in '/home/momo/uav_ws/build/uav_control' returned '2': CMAKE_PREFIX_PATH=/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --build /home/momo/uav_ws/build/uav_control -- -j8 -l8

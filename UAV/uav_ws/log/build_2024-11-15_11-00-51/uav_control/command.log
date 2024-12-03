@@ -1,0 +1,2 @@
+Invoking command in '/home/momo/uav_ws/build/uav_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/momo/uav_ws/src/uav_control -DCMAKE_INSTALL_PREFIX=/home/momo/uav_ws/install/uav_control
+Invoked command in '/home/momo/uav_ws/build/uav_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/momo/uav_ws/src/uav_control -DCMAKE_INSTALL_PREFIX=/home/momo/uav_ws/install/uav_control

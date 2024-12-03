@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:20 (find_package):
+  By not providing "Finduav_control_interfaces.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "uav_control_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "uav_control_interfaces" with any of the following names:
+
+    uav_control_interfacesConfig.cmake
+    uav_control_interfaces-config.cmake
+
+  Add the installation prefix of "uav_control_interfaces" to
+  CMAKE_PREFIX_PATH or set "uav_control_interfaces_DIR" to a directory
+  containing one of the above files.  If "uav_control_interfaces" provides a
+  separate development package or SDK, be sure it has been installed.
+
+

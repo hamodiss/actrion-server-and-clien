@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000602] (uav_control) JobQueued: {'identifier': 'uav_control', 'dependencies': OrderedDict()}
+[0.000763] (uav_control) JobStarted: {'identifier': 'uav_control'}
+[0.018950] (uav_control) JobProgress: {'identifier': 'uav_control', 'progress': 'cmake'}
+[0.019699] (uav_control) Command: {'cmd': ['/usr/bin/cmake', '/home/momo/uav_ws/src/uav_control', '-DCMAKE_INSTALL_PREFIX=/home/momo/uav_ws/install/uav_control'], 'cwd': '/home/momo/uav_ws/build/uav_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/flight/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/uav_ws/build/uav_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces')]), 'shell': False}
+[0.099462] (-) TimerEvent: {}
+[0.200477] (-) TimerEvent: {}
+[0.201976] (uav_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.301641] (-) TimerEvent: {}
+[0.336691] (uav_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.354743] (uav_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.402450] (-) TimerEvent: {}
+[0.503050] (-) TimerEvent: {}
+[0.520686] (uav_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.525615] (uav_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603246] (-) TimerEvent: {}
+[0.703824] (-) TimerEvent: {}
+[0.758776] (uav_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.799313] (uav_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.800522] (uav_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.803635] (uav_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.804085] (-) TimerEvent: {}
+[0.905072] (-) TimerEvent: {}
+[1.005737] (-) TimerEvent: {}
+[1.012229] (uav_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.013681] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.106069] (-) TimerEvent: {}
+[1.206784] (-) TimerEvent: {}
+[1.240831] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.285760] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.286538] (uav_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.289366] (uav_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.307104] (-) TimerEvent: {}
+[1.357080] (uav_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.357480] (uav_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.407240] (-) TimerEvent: {}
+[1.509192] (-) TimerEvent: {}
+[1.610661] (-) TimerEvent: {}
+[1.713219] (-) TimerEvent: {}
+[1.756804] (uav_control) StdoutLine: {'line': b'-- Found uav_control_interfaces: 0.1.0 (/home/momo/uav_interface_ws/install/uav_control_interfaces/share/uav_control_interfaces/cmake)\n'}
+[1.797268] (uav_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.805990] (uav_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.814280] (-) TimerEvent: {}
+[1.915110] (-) TimerEvent: {}
+[2.016439] (-) TimerEvent: {}
+[2.031380] (uav_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.080605] (uav_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.116835] (-) TimerEvent: {}
+[2.198108] (uav_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.217363] (-) TimerEvent: {}
+[2.318333] (-) TimerEvent: {}
+[2.420192] (-) TimerEvent: {}
+[2.421834] (uav_control) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.496405] (uav_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.496998] (uav_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.500237] (uav_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.521157] (-) TimerEvent: {}
+[2.623113] (-) TimerEvent: {}
+[2.722623] (uav_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.723304] (-) TimerEvent: {}
+[2.723619] (uav_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.823560] (-) TimerEvent: {}
+[2.924201] (-) TimerEvent: {}
+[2.937432] (uav_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.938301] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.024617] (-) TimerEvent: {}
+[3.126115] (-) TimerEvent: {}
+[3.136357] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.137178] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.227019] (-) TimerEvent: {}
+[3.328092] (-) TimerEvent: {}
+[3.348687] (uav_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.354613] (uav_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.429039] (-) TimerEvent: {}
+[3.529977] (-) TimerEvent: {}
+[3.630948] (-) TimerEvent: {}
+[3.654540] (uav_control) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[3.708540] (uav_control) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[3.731985] (-) TimerEvent: {}
+[3.807381] (uav_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.832841] (-) TimerEvent: {}
+[3.935880] (-) TimerEvent: {}
+[3.948179] (uav_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.949670] (uav_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.950240] (uav_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.950632] (uav_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.951164] (uav_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.951565] (uav_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.952071] (uav_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.952504] (uav_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.952676] (uav_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.952937] (uav_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.956811] (uav_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.969930] (uav_control) StdoutLine: {'line': b'-- Generating done\n'}
+[3.973223] (uav_control) StdoutLine: {'line': b'-- Build files have been written to: /home/momo/uav_ws/build/uav_control\n'}
+[3.986899] (uav_control) CommandEnded: {'returncode': 0}
+[3.990141] (uav_control) JobProgress: {'identifier': 'uav_control', 'progress': 'build'}
+[4.000053] (uav_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/momo/uav_ws/build/uav_control', '--', '-j8', '-l8'], 'cwd': '/home/momo/uav_ws/build/uav_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '2055'), ('ROS_PACKAGE_PATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/share:/home/momo/flight/install/uav_control/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/uav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/uav_ws/install:/home/momo/uav_interface_ws/install:/home/momo/flight/install:/home/momo/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:42105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/pkgconfig:/home/momo/flight/install/uav_control/lib/x86_64-linux-gnu/pkgconfig:/home/momo/flight/install/uav_control/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/momo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/2125,unix/momo-VirtualBox:/tmp/.ICE-unix/2125'), ('INVOCATION_ID', '3ab32db8270a4725a3b3e8bb6585ac74'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24f9066f_e2d9_4dce_acd4_d2d1c831c628'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/uav_ws/build/uav_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/momo/uav_interface_ws/install/uav_control_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces')]), 'shell': False}
+[4.036160] (-) TimerEvent: {}
+[4.113822] (uav_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flight_action_server\x1b[0m\n'}
+[4.136711] (-) TimerEvent: {}
+[4.176673] (uav_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o\x1b[0m\n'}
+[4.236854] (-) TimerEvent: {}
+[4.338729] (-) TimerEvent: {}
+[4.439305] (-) TimerEvent: {}
+[4.540739] (-) TimerEvent: {}
+[4.642244] (-) TimerEvent: {}
+[4.743734] (-) TimerEvent: {}
+[4.845313] (-) TimerEvent: {}
+[4.946739] (-) TimerEvent: {}
+[5.047255] (-) TimerEvent: {}
+[5.148838] (-) TimerEvent: {}
+[5.250269] (-) TimerEvent: {}
+[5.351779] (-) TimerEvent: {}
+[5.453313] (-) TimerEvent: {}
+[5.554847] (-) TimerEvent: {}
+[5.655456] (-) TimerEvent: {}
+[5.756536] (-) TimerEvent: {}
+[5.858430] (-) TimerEvent: {}
+[5.869714] (uav_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FlightActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<uav_control_interfaces::action::Flight> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.870557] (uav_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:77:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatus\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.870965] (uav_control) StderrLine: {'line': b'   77 |                 result->\x1b[01;31m\x1b[Kstatus\x1b[m\x1b[K = "cancelled";\n'}
+[5.871480] (uav_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.871771] (uav_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:84:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kcurrent_altitude\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.872166] (uav_control) StderrLine: {'line': b'   84 |             feedback->\x1b[01;31m\x1b[Kcurrent_altitude\x1b[m\x1b[K = current_altitude;\n'}
+[5.872488] (uav_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.872844] (uav_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:90:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kstatus\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.873161] (uav_control) StderrLine: {'line': b'   90 |         result->\x1b[01;31m\x1b[Kstatus\x1b[m\x1b[K = "reached";\n'}
+[5.873434] (uav_control) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.958945] (-) TimerEvent: {}
+[6.060427] (-) TimerEvent: {}
+[6.160922] (-) TimerEvent: {}
+[6.262384] (-) TimerEvent: {}
+[6.363476] (-) TimerEvent: {}
+[6.465091] (-) TimerEvent: {}
+[6.566407] (-) TimerEvent: {}
+[6.669158] (-) TimerEvent: {}
+[6.771387] (-) TimerEvent: {}
+[6.871970] (-) TimerEvent: {}
+[6.972841] (-) TimerEvent: {}
+[6.991416] (uav_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/flight_action_server.dir/build.make:63: CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o] Error 1\n'}
+[6.992503] (uav_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flight_action_server.dir/all] Error 2\n'}
+[6.993338] (uav_control) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.998444] (uav_control) CommandEnded: {'returncode': 2}
+[7.074133] (-) TimerEvent: {}
+[7.075661] (uav_control) JobEnded: {'identifier': 'uav_control', 'rc': 2}
+[7.090286] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+{
+  "package_name": "uav_control_interfaces",
+  "non_idl_tuples": [
+    "/home/momo/action_ws/UGV/uav_interface_ws/src/uav_control_interfaces:action/Flight.action"
+  ]
+}

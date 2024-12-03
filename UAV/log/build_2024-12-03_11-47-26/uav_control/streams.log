@@ -1,0 +1,79 @@
+[0.030s] Invoking command in '/home/momo/action_ws/UAV/build/uav_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/momo/action_ws/UAV/uav_ws/src/uav_control -DCMAKE_INSTALL_PREFIX=/home/momo/action_ws/UAV/install/uav_control
+[0.185s] -- The C compiler identification is GNU 9.4.0
+[0.342s] -- The CXX compiler identification is GNU 9.4.0
+[0.359s] -- Check for working C compiler: /usr/bin/cc
+[0.540s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.545s] -- Detecting C compiler ABI info
+[0.722s] -- Detecting C compiler ABI info - done
+[0.749s] -- Detecting C compile features
+[0.750s] -- Detecting C compile features - done
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.954s] -- Detecting CXX compiler ABI info
+[1.149s] -- Detecting CXX compiler ABI info - done
+[1.171s] -- Detecting CXX compile features
+[1.173s] -- Detecting CXX compile features - done
+[1.182s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.240s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.241s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.539s] -- Found uav_control_interfaces: 0.1.0 (/home/momo/action_ws/UAV/install/uav_control_interfaces/share/uav_control_interfaces/cmake)
+[1.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.599s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.816s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.863s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.262s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.329s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.332s] -- Looking for pthread.h
+[2.548s] -- Looking for pthread.h - found
+[2.549s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.748s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.749s] -- Looking for pthread_create in pthreads
+[2.923s] -- Looking for pthread_create in pthreads - not found
+[2.924s] -- Looking for pthread_create in pthread
+[3.158s] -- Looking for pthread_create in pthread - found
+[3.159s] -- Found Threads: TRUE  
+[3.439s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[3.494s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.611s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.745s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.746s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.746s] -- Configured cppcheck include dirs: 
+[3.747s] -- Configured cppcheck exclude dirs and/or files: 
+[3.748s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.750s] -- Configured cpplint exclude dirs and/or files: 
+[3.751s] -- Added test 'lint_cmake' to check CMake code style
+[3.751s] -- Added test 'uncrustify' to check C / C++ code style
+[3.751s] -- Configured uncrustify additional arguments: 
+[3.752s] -- Added test 'xmllint' to check XML markup files
+[3.755s] -- Configuring done
+[3.768s] -- Generating done
+[3.771s] -- Build files have been written to: /home/momo/action_ws/UAV/build/uav_control
+[3.785s] Invoked command in '/home/momo/action_ws/UAV/build/uav_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/momo/action_ws/UAV/uav_ws/src/uav_control -DCMAKE_INSTALL_PREFIX=/home/momo/action_ws/UAV/install/uav_control
+[3.795s] Invoking command in '/home/momo/action_ws/UAV/build/uav_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/momo/action_ws/UAV/build/uav_control -- -j8 -l8
+[3.924s] [35m[1mScanning dependencies of target flight_action_server[0m
+[4.055s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o[0m
+[11.817s] [100%] [32m[1mLinking CXX executable flight_action_server[0m
+[12.238s] [100%] Built target flight_action_server
+[12.259s] Invoked command in '/home/momo/action_ws/UAV/build/uav_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/momo/action_ws/UAV/build/uav_control -- -j8 -l8
+[12.298s] Invoking command in '/home/momo/action_ws/UAV/build/uav_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/momo/action_ws/UAV/build/uav_control
+[12.308s] -- Install configuration: ""
+[12.308s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/lib/uav_control/flight_action_server
+[12.313s] -- Set runtime path of "/home/momo/action_ws/UAV/install/uav_control/lib/uav_control/flight_action_server" to ""
+[12.314s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/ament_index/resource_index/package_run_dependencies/uav_control
+[12.314s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/ament_index/resource_index/parent_prefix_path/uav_control
+[12.315s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/ament_prefix_path.sh
+[12.315s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/ament_prefix_path.dsv
+[12.316s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/path.sh
+[12.316s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/environment/path.dsv
+[12.317s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.bash
+[12.317s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.sh
+[12.318s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.zsh
+[12.318s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/local_setup.dsv
+[12.318s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/package.dsv
+[12.319s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/ament_index/resource_index/packages/uav_control
+[12.319s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/cmake/uav_controlConfig.cmake
+[12.319s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/cmake/uav_controlConfig-version.cmake
+[12.320s] -- Installing: /home/momo/action_ws/UAV/install/uav_control/share/uav_control/package.xml
+[12.323s] Invoked command in '/home/momo/action_ws/UAV/build/uav_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:/home/momo/action_ws/UAV/install/uav_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/momo/action_ws/UAV/install/uav_control_interfaces/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/momo/action_ws/UAV/build/uav_control

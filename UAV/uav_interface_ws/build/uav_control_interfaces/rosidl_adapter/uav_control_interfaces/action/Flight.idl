@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from uav_control_interfaces/action/Flight.action
+// generated code does not contain a copyright notice
+
+
+module uav_control_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal definition")
+    struct Flight_Goal {
+      @verbatim (language="comment", text=
+        " Target altitude")
+      float altitude;
+    };
+    struct Flight_Result {
+      @verbatim (language="comment", text=
+        " Feedback definition" "\n"
+        " Current altitude during flight")
+      float current_altitude;
+    };
+    struct Flight_Feedback {
+      @verbatim (language="comment", text=
+        " Result definition" "\n"
+        " Final status (\"reached\", \"landed\", etc.)")
+      string status;
+    };
+  };
+};

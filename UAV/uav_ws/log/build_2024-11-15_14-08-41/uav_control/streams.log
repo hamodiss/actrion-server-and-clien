@@ -1,0 +1,20 @@
+[0.028s] Invoking command in '/home/momo/uav_ws/build/uav_control': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --build /home/momo/uav_ws/build/uav_control -- -j8 -l8
+[0.135s] [35m[1mScanning dependencies of target flight_action_server[0m
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o[0m
+[1.902s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:[m[K In member function ‘[01m[Kvoid FlightActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<uav_control_interfaces::action::Flight> >)[m[K’:
+[1.903s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:110:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcurrent_altitude[m[K’
+[1.903s]   110 |                 feedback->[01;31m[Kcurrent_altitude[m[K = current_altitude;
+[1.903s]       |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.904s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:116:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcurrent_altitude[m[K’
+[1.904s]   116 |                 feedback->[01;31m[Kcurrent_altitude[m[K = current_altitude;
+[1.904s]       |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.905s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:125:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+[1.905s]   125 |                 result->[01;31m[Kstatus[m[K = "Landed";
+[1.906s]       |                         [01;31m[K^~~~~~[m[K
+[1.906s] [01m[K/home/momo/uav_ws/src/uav_control/src/flight_action_server.cpp:134:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct uav_control_interfaces::action::Flight_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+[1.906s]   134 |                 result->[01;31m[Kstatus[m[K = "Reached";
+[1.907s]       |                         [01;31m[K^~~~~~[m[K
+[4.019s] make[2]: *** [CMakeFiles/flight_action_server.dir/build.make:63: CMakeFiles/flight_action_server.dir/src/flight_action_server.cpp.o] Error 1
+[4.020s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flight_action_server.dir/all] Error 2
+[4.020s] make: *** [Makefile:141: all] Error 2
+[4.027s] Invoked command in '/home/momo/uav_ws/build/uav_control' returned '2': CMAKE_PREFIX_PATH=/home/momo/ugv_ws/install/ugv_control:/home/momo/uav_ws/install/uav_control:/opt/ros/foxy:/home/momo/uav_interface_ws/install/uav_control_interfaces /usr/bin/cmake --build /home/momo/uav_ws/build/uav_control -- -j8 -l8

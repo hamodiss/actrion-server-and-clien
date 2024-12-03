@@ -1,0 +1,10 @@
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/install/strip.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/install/local.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/install.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/list_install_components.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/rebuild_cache.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/edit_cache.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/test.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/flight_action_server.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/uav_control_uninstall.dir
+/home/momo/action_ws/UAV/build/uav_control/CMakeFiles/uninstall.dir
