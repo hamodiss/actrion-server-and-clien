@@ -1,4 +1,4 @@
-# maked by Mohamad Hamdi Alhaji Shommo
+
 cmake_minimum_required(VERSION 3.5)
 project(uav_control_interfaces)
 
