@@ -1,4 +1,0 @@
-Invoking command in '/home/momo/uav_interface_ws/build/uav_control_interfaces': /usr/bin/cmake --build /home/momo/uav_interface_ws/build/uav_control_interfaces -- -j8 -l8
-Invoked command in '/home/momo/uav_interface_ws/build/uav_control_interfaces' returned '0': /usr/bin/cmake --build /home/momo/uav_interface_ws/build/uav_control_interfaces -- -j8 -l8
-Invoking command in '/home/momo/uav_interface_ws/build/uav_control_interfaces': /usr/bin/cmake --install /home/momo/uav_interface_ws/build/uav_control_interfaces
-Invoked command in '/home/momo/uav_interface_ws/build/uav_control_interfaces' returned '0': /usr/bin/cmake --install /home/momo/uav_interface_ws/build/uav_control_interfaces
